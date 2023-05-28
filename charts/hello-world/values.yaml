@@ -13,6 +13,11 @@ image:
 nameOverride: ""
 fullnameOverride: ""
 
+  ##
+ securityContext:
+   enabled: false
+   runAsUser: 1001
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
